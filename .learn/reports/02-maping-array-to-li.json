@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mYou should use singleAnimal to get the anima for each of the iterations\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected substring: \u001b[32m\"{singleAnimal}\"\u001b[39m\n    Received string:    \u001b[31m\"import React from \\\"react\\\";\u001b[39m\n    \u001b[31mimport ReactDOM from \\\"react-dom\\\";·\u001b[39m\n    \u001b[31mconst animals = [\\\"Horse\\\", \\\"Turtle\\\", \\\"Elephant\\\", \\\"Monkey\\\"];·\u001b[39m\n    \u001b[31m/**\u001b[39m\n    \u001b[31m * change the content inside the map function\u001b[39m\n    \u001b[31m **/\u001b[39m\n    \u001b[31mconst animalsInHTML = animals.map((animals) => <li>{animals}</li>);·\u001b[39m\n    \u001b[31mReactDOM.render(<ul>{animalsInHTML}</ul>, document.querySelector(\\\"#myDiv\\\"));\u001b[39m\n    \u001b[31m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m test(\u001b[32m\"You should use singleAnimal to get the anima for each of the iterations\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 37 |\u001b[39m     expect(app_content)\u001b[33m.\u001b[39mtoMatch(\u001b[32m\"{singleAnimal}\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m test(\u001b[32m\"You should add the key for each of them and it should be unique\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/02-maping-array-to-li/tests.js\u001b[39m\u001b[0m\u001b[2m:37:25)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mYou should add the key for each of them and it should be unique\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected substring: \u001b[32m\"key={i}\"\u001b[39m\n    Received string:    \u001b[31m\"import React from \\\"react\\\";\u001b[39m\n    \u001b[31mimport ReactDOM from \\\"react-dom\\\";·\u001b[39m\n    \u001b[31mconst animals = [\\\"Horse\\\", \\\"Turtle\\\", \\\"Elephant\\\", \\\"Monkey\\\"];·\u001b[39m\n    \u001b[31m/**\u001b[39m\n    \u001b[31m * change the content inside the map function\u001b[39m\n    \u001b[31m **/\u001b[39m\n    \u001b[31mconst animalsInHTML = animals.map((animals) => <li>{animals}</li>);·\u001b[39m\n    \u001b[31mReactDOM.render(<ul>{animalsInHTML}</ul>, document.querySelector(\\\"#myDiv\\\"));\u001b[39m\n    \u001b[31m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m test(\u001b[32m\"You should add the key for each of them and it should be unique\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(app_content)\u001b[33m.\u001b[39mtoMatch(\u001b[32m\"key={i}\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/02-maping-array-to-li/tests.js\u001b[39m\u001b[0m\u001b[2m:41:25)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "ReactDOM.render needs to be called once",
+      "status": "passed"
+    },
+    {
+      "title": "The component should return the exact HTML",
+      "status": "passed"
+    },
+    {
+      "title": "You should use singleAnimal to get the anima for each of the iterations",
+      "status": "failed"
+    },
+    {
+      "title": "You should add the key for each of them and it should be unique",
+      "status": "failed"
+    }
+  ]
+}
